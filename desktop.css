@@ -1,0 +1,167 @@
+body {
+    background-image: url(bg-mobile.svg);
+    background-color: hsl(257, 40%, 49%);
+    color:#FFFFFF;
+    width:90%;
+    margin-left:auto;
+     font-family: 'Poppins', sans-serif;
+}
+
+/*medium screens*/
+@media (min-width:330px) and (max-width:1000px){
+
+    body {
+        width: 90%;
+        margin-left:auto;
+    }
+    .col-md-12 {
+        width:50%;
+    }
+
+    @-ms-viewport {
+        width: device-width;
+    }
+
+    @-moz-viewport {
+        width: device-width;
+    }
+
+    @-webkit-viewport {
+        width: device-width;
+    }
+
+    body {
+        background-image: url(bg-desktop.svg);
+        background-color: hsl(257, 40%, 49%);
+    }
+
+    .classy h2, article {
+        color: white;
+      }
+
+
+    #foot {
+        text-align: center;
+    }
+
+    #butt {
+        color: hsl(257, 40%, 49%);
+        width: 50%;
+        font-size: 20px;
+        border-radius: 12px;
+        background-color: white;
+    }
+
+    h1 {
+        font-weight: bold;
+        color: white;
+    }
+
+
+    h1, .classy, #foot, #butt {
+        font-family: 'Poppins', sans-serif;
+    }
+
+
+    footer {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .des {
+        text-align: none;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .svgf {
+    }
+
+    #txta {
+
+        width:97%;
+        margin:auto;
+    }
+
+    section {
+
+         width:100%;
+         margin-left:auto;
+         margin-right:30%;
+         margin-up:auto;
+         margin-down:auto;
+    }
+
+
+}
+
+/*large screens*/
+@media (min-width:1024px) {
+
+     body {
+         position:relative;
+         margin-top:10%;
+        width: 90%;
+        margin-left: auto;
+
+    }
+    .col-lg-6 {
+        width:100%;
+    }
+
+    @-ms-viewport {
+        width: device-width;
+    }
+
+    @-webkit-viewport {
+        width: device-width;
+    }
+
+    @-moz-viewport {
+        width: device-width;
+    }
+
+    body {
+        background-image: url(bg-mobile.svg);
+        background-color: hsl(257, 40%, 49%);
+        margin-left:0%;
+        margin-right:0%;
+
+    }
+
+
+    .classy h2, article {
+        color: white;
+    }
+
+    #foot {
+        text-align: none;
+    }
+
+    #butt {
+        color: hsl(257, 40%, 49%);
+        width: 50%;
+        font-size: 20px;
+        border-radius: 12px;
+        background-color: white;
+    }
+
+    h1, .classy, #foot, #butt {
+        font-family: 'Poppins', sans-serif;
+    }
+
+    footer {
+ 
+    }
+
+    .des {
+        text-align:none;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .svgf {
+    }
+
+ 
+
+}
+
